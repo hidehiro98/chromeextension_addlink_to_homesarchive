@@ -10,7 +10,7 @@
 - 左上の「パッケージ化されていない拡張機能を読み込む」をクリック
 - このリポジトリのsrcディレクトリを選択する
 
-## 使い方 (Tampermonkey scriptとして)
+## （WIP）使い方 (Tampermonkey scriptとして)
 - https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja をインストール
 - Tampermonkeyをクリックして`新規スクリプトを追加`クリック
 - 2行目を`// @name         Add a shortcut to the Home's Archive in the Yahoo Realestate `に置き換え
