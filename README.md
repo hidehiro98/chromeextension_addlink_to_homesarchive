@@ -3,9 +3,6 @@
 - サイト例：https://realestate.yahoo.co.jp/rent/detail/0000014701629aa3e49066d778b3b9873c3ba09cbeeb/
 
 ## 使い方 (Chrome extensionとして)
-- https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino/related?hl=ja をインストールして、右上の拡張機能をクリックしてCが黄色くなっていることを確認
-- chrome://extensions/ にアクセス、CORS UnblockのDetailsをクリック、Site access > On specific sitesを選択、`https://realestate.yahoo.co.jp/*
-`と入力
 - $ git clone https://github.com/hidehiro98/chromeextension_yahoo_to_homes
 - chrome://extensions/ にアクセス
 - 右上のディベロッパーモードをオンにする
