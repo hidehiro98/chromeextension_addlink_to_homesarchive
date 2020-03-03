@@ -9,10 +9,6 @@
       "content.js"
     ]
   }],
-  "permissions": [
-    "webRequest",
-    "*://*.google.com/"
-  ],
   "background": {
     "scripts": ["hot-reload.js"]
   },
