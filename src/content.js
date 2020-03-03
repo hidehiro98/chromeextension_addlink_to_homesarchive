@@ -4,8 +4,9 @@ window.onload = function() {
     let linkToArchive = document.createElement('a')
     const mansionName = body.textContent.split('(')[0]
 
-    // https://qiita.com/nulltypo/items/4e5c494971955c767531 で書き直す
-    // https://groups.google.com/a/chromium.org/forum/#!topic/chromium-extensions/aVn9F6S_z68
+    // 1. manifest.jsonにbackground.js追加して、ファイルも追加
+    // 2. https://qiita.com/nulltypo/items/4e5c494971955c767531
+    // 3. manifest.jsonに  "permissions": ["<all_urls>"], 追加する。https://groups.google.com/a/chromium.org/forum/#!topic/chromium-extensions/aVn9F6S_z68
     chrome.runtime.sendMessage(
       {contentScriptQuery: "yahoo", mansionName: mansionName},
       (result) => {
