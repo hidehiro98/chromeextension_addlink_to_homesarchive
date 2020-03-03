@@ -6,6 +6,8 @@ window.onload = function() {
 
     // https://qiita.com/nulltypo/items/4e5c494971955c767531 で書き直す
 
+    
+
     // https://www.homes.co.jp/archive/b-942730/u-37356073/
     google(mansionName).then((result) => {
       console.log(result)
