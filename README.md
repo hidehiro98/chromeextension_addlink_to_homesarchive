@@ -1,9 +1,9 @@
-# Lifull Home's Archive Sort
+# Add a shortcut to the Home's Archive in the Yahoo Realestate
 - Lifull Home's Archiveサイトの賃貸掲載履歴を部屋ごとにソートする拡張機能です。
 - サイト例：https://www.homes.co.jp/archive/b-13683211/
 
 ## 使い方 (Chrome extensionとして)
-- $ git clone https://github.com/hidehiro98/chromeextension_lifull_homes_archive
+- $ git clone https://github.com/hidehiro98/chromeextension_yahoo_to_homes
 - chrome://extensions/ にアクセス
 - 右上のディベロッパーモードをオンにする
 - 左上の「パッケージ化されていない拡張機能を読み込む」をクリック
@@ -12,6 +12,6 @@
 ## 使い方 (Tampermonkey scriptとして)
 - https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja をインストール
 - Tampermonkeyをクリックして`新規スクリプトを追加`クリック
-- 2行目を`// @name         Lifull Home's Archive Sort`に置き換え
-- 7行目を`// @match        https://www.homes.co.jp/archive/b-*`に置き換え
+- 2行目を`// @name         Add a shortcut to the Home's Archive in the Yahoo Realestate `に置き換え
+- 7行目を`// @match        https://realestate.yahoo.co.jp/rent/*`に置き換え
 - `src/content.js`の内容を全て`// Your code here...`にコピペ

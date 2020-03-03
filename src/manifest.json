@@ -1,10 +1,10 @@
 {
-  "name": "Lifull Home's Archive Order",
+  "name": "Yahoo Realestate to Home's Archive",
   "version": "0.9.0",
   "manifest_version": 2,
-  "description": "Extension for Lifull Home's Archive Order",
+  "description": "Add a shortcut to the Home's Archive in the Yahoo Realestate",
   "content_scripts": [{
-    "matches": ["https://www.homes.co.jp/archive/b-*"],
+    "matches": ["https://realestate.yahoo.co.jp/rent/*"],
     "js": [
       "content.js"
     ]
