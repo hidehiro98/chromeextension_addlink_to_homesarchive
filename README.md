@@ -3,6 +3,7 @@
 - サイト例：https://www.homes.co.jp/archive/b-13683211/
 
 ## 使い方 (Chrome extensionとして)
+- https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino/related?hl=ja をインストールして、右上の拡張機能をクリックしてCが黄色くなっていることを確認
 - $ git clone https://github.com/hidehiro98/chromeextension_yahoo_to_homes
 - chrome://extensions/ にアクセス
 - 右上のディベロッパーモードをオンにする
