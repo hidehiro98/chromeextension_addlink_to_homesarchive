@@ -1,6 +1,6 @@
 # Add a shortcut to the Home's Archive in the Yahoo Realestate
-- Lifull Home's Archiveサイトの賃貸掲載履歴を部屋ごとにソートする拡張機能です。
-- サイト例：https://www.homes.co.jp/archive/b-13683211/
+- Yahoo!不動産の物件ページから、Lifull Home's Archiveサイトのその物件へのリンクを挿入する拡張機能です。
+- サイト例：https://realestate.yahoo.co.jp/rent/detail/0000014701629aa3e49066d778b3b9873c3ba09cbeeb/
 
 ## 使い方 (Chrome extensionとして)
 - https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino/related?hl=ja をインストールして、右上の拡張機能をクリックしてCが黄色くなっていることを確認
