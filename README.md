@@ -4,6 +4,8 @@
 
 ## 使い方 (Chrome extensionとして)
 - https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino/related?hl=ja をインストールして、右上の拡張機能をクリックしてCが黄色くなっていることを確認
+- chrome://extensions/ にアクセス、CORS UnblockのDetailsをクリック、Site access > On specific sitesを選択、`https://realestate.yahoo.co.jp/*
+`と入力
 - $ git clone https://github.com/hidehiro98/chromeextension_yahoo_to_homes
 - chrome://extensions/ にアクセス
 - 右上のディベロッパーモードをオンにする

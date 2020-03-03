@@ -18,7 +18,7 @@ window.onload = function() {
 async function google(mansionName) {
   // google custom search API使うようにしたい
   // google custom searchがつながらない https://cse.google.com/cse/all
-  // const apiKey = ''
+  // const apiKey = '' apiKeyアップロードしないよう注意
   // GET https://www.googleapis.com/customsearch/v1?key=AIzaSyCPw2LX1rdsRBE_VAUiKCIpGwVRpaZk2ZU&cx=017576662512468239146:omuauf_lfve&q=コンフォリア文京&siteSearch=https://www.homes.co.jp/archive
   // const response = await fetch(`https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=017576662512468239146:omuauf_lfve&siteSearch=https://www.homes.co.jp/archive&q=${mansionName}`);
 
