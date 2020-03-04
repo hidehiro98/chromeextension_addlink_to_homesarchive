@@ -1,6 +1,10 @@
 # Add a shortcut to the Home's Archive in the Yahoo Realestate
-- Yahoo!不動産の物件ページから、Lifull Home's Archiveサイトのその物件へのリンクを挿入する拡張機能です。
-- サイト例：https://realestate.yahoo.co.jp/rent/detail/0000014701629aa3e49066d778b3b9873c3ba09cbeeb/
+- Yahoo!不動産、Lifull Home's（ホームズ）、Suumo（スーモ）、Athome（アットホーム）の物件ページから、Lifull Home's Archiveサイトのその物件へのリンクを挿入する拡張機能です。
+- サイト例
+  - https://realestate.yahoo.co.jp/rent/detail/0000014701629aa3e49066d778b3b9873c3ba09cbeeb/
+  - https://www.homes.co.jp/chintai/b-1030810001473/
+  - https://suumo.jp/chintai/jnc_000055379799/
+  - https://www.athome.co.jp/chintai/1067957447/
 
 ## 使い方 (Chrome extensionとして)
 - $ git clone https://github.com/hidehiro98/chromeextension_yahoo_to_homes
@@ -18,4 +22,4 @@
 
 ## 不動産関連拡張機能リスト
 - [Lifull Home's Archive Sort](https://github.com/hidehiro98/chromeextension_lifull_homes_archive)
-- [Add a shortcut to the Home's Archive in the Yahoo Realestate](https://github.com/hidehiro98/chromeextension_yahoo_to_homes)
+- [Add a shortcut to the Home's Archive in the Yahoo Realestate, the Home's, the Suumo and the athome](https://github.com/hidehiro98/chromeextension_yahoo_to_homes)
