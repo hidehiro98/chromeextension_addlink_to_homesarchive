@@ -15,9 +15,9 @@
     ]
   }],
   "background": {
-    "scripts": ["hot-reload.js", "background.js"]
+    "scripts": ["hot-reload.js", "background.js"],
+    "persistent": false
   },
-  "persistent": false,
   "permissions": ["<all_urls>"],
   "browser_action": {
     "default_icon": "icon.png"
