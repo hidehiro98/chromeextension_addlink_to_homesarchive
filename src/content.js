@@ -1,4 +1,5 @@
 window.onload = function() {
+  // Yahoo!不動産
   if (document.getElementsByClassName('ttlLarge2')['length'] != 0) {
     var body = document.getElementsByClassName('ttlLarge2')['0']
     let linkToArchive = document.createElement('a')
@@ -27,7 +28,7 @@ window.onload = function() {
     // })
   }
 
-  // console.log(document.getElementById('chk-bkh-name'))
+  // Lifull Home's
   if (document.getElementById('chk-bkh-name')) {
     var body = document.getElementById('chk-bkh-name')
     let linkToArchive = document.createElement('a')
@@ -41,6 +42,24 @@ window.onload = function() {
         linkToArchive.href = result
         linkToArchive.target = '_blank'
         linkToArchive.style.cssText = 'color: white;'
+        body.append(linkToArchive)
+      }
+    );
+  }
+
+  // Suumo
+  if (document.getElementsByClassName('section_h1-header-title')['length'] != 0) {
+    var body = document.getElementsByClassName('section_h1-header-title')['0']
+    let linkToArchive = document.createElement('a')
+    const mansionName = body.textContent
+    console.log(mansionName)
+
+    chrome.runtime.sendMessage(
+      {contentScriptQuery: "lifullHomes", mansionName: mansionName},
+      (result) => {
+        linkToArchive.textContent = "Lifull Home's Archiveへのリンク"
+        linkToArchive.href = result
+        linkToArchive.target = '_blank'
         body.append(linkToArchive)
       }
     );
