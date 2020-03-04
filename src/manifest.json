@@ -4,7 +4,10 @@
   "manifest_version": 2,
   "description": "Add a shortcut to the Home's Archive in the Yahoo Realestate",
   "content_scripts": [{
-    "matches": ["https://realestate.yahoo.co.jp/rent/*"],
+    "matches": [
+      "https://realestate.yahoo.co.jp/rent/detail/*",
+      "https://www.homes.co.jp/chintai/b-*"
+    ],
     "js": [
       "content.js"
     ]
