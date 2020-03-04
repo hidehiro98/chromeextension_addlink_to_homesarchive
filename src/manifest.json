@@ -7,7 +7,8 @@
     "matches": [
       "https://realestate.yahoo.co.jp/rent/detail/*",
       "https://www.homes.co.jp/chintai/b-*",
-      "https://suumo.jp/chintai/jnc_*"
+      "https://suumo.jp/chintai/jnc_*",
+      "https://www.athome.co.jp/chintai/*"
     ],
     "js": [
       "content.js"

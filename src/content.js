@@ -64,6 +64,43 @@ window.onload = function() {
       }
     );
   }
+
+  // athome list
+  // if (document.getElementsByClassName('p-property__title--building')['length'] != 0) {
+  //   for (let body of document.getElementsByClassName('p-property__title--building')) {
+  //     // var body = document.getElementsByClassName('p-property__title--building')['0']
+  //     let linkToArchive = document.createElement('a')
+  //     const mansionName = body.textContent
+
+  //     chrome.runtime.sendMessage(
+  //       {contentScriptQuery: "lifullHomes", mansionName: mansionName},
+  //       (result) => {
+  //         linkToArchive.textContent = "Lifull Home's Archiveへのリンク"
+  //         linkToArchive.href = result
+  //         linkToArchive.target = '_blank'
+  //         body.append(linkToArchive)
+  //       }
+  //     );
+  //   }
+  // }
+
+  // athome detail
+  if (document.querySelectorAll('.heading .name')['length'] != 0) {
+    var body = document.querySelectorAll('.heading .name')['0']
+    let linkToArchive = document.createElement('a')
+    const mansionName = body.textContent.split(' ')[0]
+
+    chrome.runtime.sendMessage(
+      {contentScriptQuery: "lifullHomes", mansionName: mansionName},
+      (result) => {
+        linkToArchive.textContent = "Lifull Home's Archiveへのリンク"
+        linkToArchive.href = result
+        linkToArchive.target = '_blank'
+        linkToArchive.style.cssText = 'color: white;'
+        body.append(linkToArchive)
+      }
+    );
+  }
 };
 
 // async function google(mansionName) {
