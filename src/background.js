@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    if (request.contentScriptQuery == "yahoo") {
+    if (request.contentScriptQuery == "yahooRealestate") {
       var url = "https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.homes.co.jp%2Farchive+" + request.mansionName;
       // fetch(url, {mode: 'no-cors'})
       fetch(url)

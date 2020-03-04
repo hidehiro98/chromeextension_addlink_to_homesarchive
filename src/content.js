@@ -8,7 +8,7 @@ window.onload = function() {
     // 2. https://qiita.com/nulltypo/items/4e5c494971955c767531
     // 3. manifest.jsonに  "permissions": ["<all_urls>"], 追加する。https://groups.google.com/a/chromium.org/forum/#!topic/chromium-extensions/aVn9F6S_z68
     chrome.runtime.sendMessage(
-      {contentScriptQuery: "yahoo", mansionName: mansionName},
+      {contentScriptQuery: "yahooRealestate", mansionName: mansionName},
       (result) => {
         linkToArchive.textContent = "Lifull Home's Archiveへのリンク"
         linkToArchive.href = result
